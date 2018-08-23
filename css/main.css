@@ -1,0 +1,69 @@
+body {
+  background-color: white;
+  font-family: 'NTR', sans-serif;
+  color: black;
+}
+
+.heading {
+  text-align: left;
+  padding-left: 500px;
+}
+
+h1 {
+  font-size: 85px;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding-right: 470px;
+  font-size: 20px;
+}
+
+.ticketmania {
+  text-align: left;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #25BEA0;
+}
+
+.work-heading {
+  text-align: center;
+}
+
+.work-subheading {
+  padding-right: 885px;
+}
+
+.hidden-gems {
+  text-align: left;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+.vinyl-destination {
+  text-align: left;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #25BEA0;
+}
+
+.stack {
+  text-align: left;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
