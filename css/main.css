@@ -11,6 +11,13 @@ body {
   padding-top: 50px;
 }
 
+.heading-title {
+
+}
+.heading-name {
+  height: 120px;
+}
+
 h1 {
   font-size: 85px;
   margin: 0;
@@ -32,7 +39,7 @@ p {
   text-align: left;
   font-size: 20px;
   margin: 20px;
-  padding: 20px;
+  padding-left: 30px;
   background-color: #25BEA0;
   overflow: auto;
 }
@@ -41,17 +48,19 @@ p {
   text-align: left;
   font-size: 20px;
   margin: 20px;
-  padding: 20px;
+  padding-left: 30px;
   color: white;
   background-color: black;
   overflow: auto;
 }
 
+
+
 .vinyl-destination {
   text-align: left;
   font-size: 20px;
   margin: 20px;
-  padding: 20px;
+  padding-left: 30px;
   background-color: #25BEA0;
   overflow: auto;
 }
@@ -60,14 +69,14 @@ p {
   text-align: left;
   font-size: 20px;
   margin: 20px;
-  padding: 20px;
+  padding-left: 30px;
   color: white;
   background-color: black;
   overflow: auto;
 }
 
 
-.ticketmania-desktop img {
+.ticketmania-desktop   {
   display: block;
   padding-right: 50px;
   padding-bottom: 20px;
@@ -93,15 +102,6 @@ p {
   margin: 20px;
   padding: 20px;
   background-color: #25BEA0;
-}
-
-.stack {
-  text-align: left;
-  font-size: 20px;
-  margin: 20px;
-  padding: 20px;
-  color: white;
-  background-color: black;
 }
 
 ul {
@@ -144,6 +144,6 @@ li a:hover {
   padding: 5px;
 }
 
-.navbar {
+#navbar {
   width: 100%;
 }

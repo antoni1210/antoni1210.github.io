@@ -9,30 +9,30 @@
     <script src="js/app.js"></script>
   </head>
   <body>
-    <section class="navbar">
+    <section id="navbar">
       <ul>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="news.asp">Portfolio</a></li>
-        <li><a href="default.asp">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
       </ul>
     </section>
 
     <section class="heading">
-      <h1>Antoni Alston</h1>
-      <h4>Web Developer</h4>
-      <p>I'm a creative thinker with an eye for detail and fondness of problem solving. Working closely with developers in my previous career and learning to understand their involvement in a business led me to pursue my own career as a Web Developer. Taking from what I’ve learned and the people I’ve met so far, I’m looking forward to immersing myself further in the tech community.
+      <h1 class="heading-name"><a name="about"></a>ANTONI ALSTON</h1>
+      <h4 class="heading-title">Web Developer</h4>
+      <p>I am a creative thinker with an eye for detail and fondness of problem solving. Working closely with developers in my previous career and learning to understand their involvement in a business led me to pursue my own career as a Web Developer. Taking from what I’ve learned and the people I’ve met so far, I’m looking forward to immersing myself further in the tech community.
       </p>
     </section>
 
     <hr width="70%">
 
     <section class="portfolio">
-      <h4 class="portfolio-heading">Portfolio</h4>
+      <h4 class="portfolio-heading"><a name="portfolio"></a>Portfolio</h4>
       <div class="ticketmania">
         <h4>TicketMania</h4>
-        <a class="ticketmania-desktop" href="https://abc-events.herokuapp.com/" target="_blank"><img border="0"alt="Mobile" src="./images/ticketmania_mob.png"></a>
-        <a class="ticketmania-desktop" href="https://abc-events.herokuapp.com/" target="_blank"><img border="0"alt="Desktop" src="./images/ticketmania_desktop.png"></a>
-        <p class="portfolio-subheading">
+          <a class="ticketmania-desktop" href="https://abc-events.herokuapp.com/" target="_blank"><img border="0" alt="Mobile" src="./images/ticketmania_mob.png"></a>
+          <a class="ticketmania-desktop" href="https://abc-events.herokuapp.com/" target="_blank"><img border="0" alt="Desktop" src="./images/ticketmania_desktop.png"></a>
+          <p class="portfolio-subheading">
           TicketMania is a ticket exchange platform that utilises Ticketmaster’s and Google’s API’s. This was a groupproject for which we used React as our framework and was the first time we had to oncorporate both front andback-end testing. My role in the team consisted of pair programming with another team member to build up thebackend, and I was also responsible for the incorporation of Ticketmaster’s API in our application.
         </p>
         <a href="https://github.com/antoni1210/WDI-PROJECT-4" target="_blank"><img border="0" alt="GitHub" src="./images/GitHub_Logo.png"  width="70" height="30"></a>
@@ -40,8 +40,8 @@
 
         <div class="hidden-gems">
           <h4>Hidden Gems</h4>
-          <a class="ticketmania-desktop" href="https://hidden-gems-api.herokuapp.com/" target="_blank"><img border="0" a="Mobile" src="./images/hidden_gems_mobile.png"></a>
-          <a class="ticketmania-desktop" href="https://hidden-gems-api.herokuapp.com/" target="_blank"><img border="0" a="Desktop" src="./images/hidden_gems_desktop.png"></a>
+          <a class="ticketmania-desktop" href="https://hidden-gems-api.herokuapp.com/" target="_blank"><img border="0" alt="Mobile" src="./images/hidden_gems_mobile.png"></a>
+          <a class="ticketmania-desktop" href="https://hidden-gems-api.herokuapp.com/" target="_blank"><img border="0" alt="Desktop" src="./images/hidden_gems_desktop.png"></a>
           <p class="work-subheading">Our third project was our first group project. Again, we built a RESTful website,this tme using AngularJS as the chosen framework, and we had one week to complete it. The back-end was builtusing Epress and Mongoose, however this time we had to incorporate testing, which we did using Mocha and Chai.This was or first time using external API’s, such as Google’s Maps and Places API. All three of us built the back end tgether and I then paired up with another team member to incorporate the use of Google Places and the Place Atocomplete feature. I was also responsible for the voting system and some of the styling.
             </p>
             <a href="https://github.com/antoni1210/WDI34_PROJECT_3" target="_blank"><img border="0" alt="GitHub" src="./images/GitHub_Logo_white.png"  width="70" height="30"></a>
@@ -49,8 +49,8 @@
 
         <div class="vinyl-destination">
           <h4>Vinyl Destination</h4>
-          <a class="ticketmania-desktop" href="https://abc-events.herokuapp.com/" target="_blank"><img border="0" alt="Mobile" src="./images/vinyl_destination_mobile.png"></a>
-          <a class="ticketmania-desktop" href="https://abc-events.herokuapp.com/" target="_blank"><img border="0" alt="Desktop" src="./images/vinyl_destination_desktop.png"></a>
+          <a class="ticketmania-desktop" href="https://project-2-wdi-antoni-alston.herokuapp.com/" target="_blank"><img border="0" alt="Mobile" src="./images/vinyl_destination_mobile.png"></a>
+          <a class="ticketmania-desktop" href="https://project-2-wdi-antoni-alston.herokuapp.com/" target="_blank"><img border="0" alt="Desktop" src="./images/vinyl_destination_desktop.png"></a>
           <p class="work-subheading">
           My brief was to build a full-stack RESTful application that included authentication, within a 6 day window, using vanilla JavaScript. This was a solo project for which I used Express with a Mongo database using the Mongoose ORM to build up the back end. The app had to contain two models; one representing a user and the other represented the main resource of the app.
           </p>
@@ -73,9 +73,9 @@
 
     <section class="contact">
 
-      <h4 class="contact-heading">Contact</h4>
+      <h4 class="contact-heading"><a name="contact"></a>Contact</h4>
 
-<div class="row">
+      <div class="row">
 
           <div class="column">
             <a href="mailto:antonialston@gmail.com" target="_blank"><img border="0" alt="Email" src="./images/email.png"  width="30" height="30"></a>
@@ -88,7 +88,7 @@
           <div class="column">
             <a href="https://github.com/antoni1210" target="_blank"><img border="0" alt="GitHub" src="./images/GitHub_Logo.png"  width="70" height="30"></a>
           </div>
-</div>
+        </div>
 
     </section>
 
