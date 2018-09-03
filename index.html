@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Antoni Alston</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link rel="stylesheet/css" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=NTR" rel="stylesheet">
+  <link rel="stylesheet/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
   <script src="js/app.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -15,16 +15,11 @@
 <body>
 
   <nav class="navbar is-dark is-fixed-top">
-    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-
     <div id="navbarTransparent" class="navbar-menu">
       <div class="navbar-end">
         <a class="navbar-item" href="#about">About</a>
         <a class="navbar-item" href="#portfolio">Portfolio</a>
+        <a class="navbar-item" href="#skills">Skills</a>
         <a class="navbar-item" href="#contact">Contact</a>
       </div>
     </div>
@@ -48,13 +43,17 @@
 
   <hr />
 
-  <section class="hero is-medium is-primary"><a id="about"></a>
+  <section class="hero is-medium is-dark"><a id="about"></a>
     <div class="hero-body">
       <div class="container has-text-left">
         <h2 class="title is-size-5">
           <p class="title is-1">About</p>
           <br>
           <p>I am a creative thinker with an eye for detail and fondness of problem solving. Working closely with developers in my previous career and learning to understand their involvement in a business led me to pursue my own career as a Web Developer. Taking from what I’ve learned and the people I’ve met so far, I’m looking forward to immersing myself further in the tech community.</p>
+        </h2>
+        <br>
+        <h2 class="subtitle is-size-3">
+          <a href="#portfolio"><img src="./images/expand-button.png"></a>
         </h2>
       </div>
     </div>
@@ -71,7 +70,6 @@
       </div>
     </div>
 
-
     <div class="container">
       <div class="columns">
         <div class="column">
@@ -79,16 +77,18 @@
             <article class="tile is-child notification is-primary">
               <p class="title">TicketMania</p>
               <br>
-              <p class="subtitle has-text-weight-semibold">TicketMania is a ticket exchange platform that utilises Ticketmaster’s and Google’s API’s. This was a group project for which we used React as our framework and was the first time we had to incorporate both front and back-end testing. My role in the team consisted of pair programming with another team member to build up the back-end, and I was also responsible for the incorporation of Ticketmaster’s API in our application. The project took us one week to complete.</p>
-              <br>
-              <p>
-                <a href="https://github.com/antoni1210/WDI-PROJECT-4" target="_blank">
-                  <img src="./images/GitHub_Logo.png" alt="GitHub" style="width:92px;height:42px;border:0;">
-                </a>
-                <a href="https://abc-events.herokuapp.com/" target="_blank">
-                  <img src="./images/link.png" alt="Link">
-                </a>
+              <p class="subtitle has-text-weight-semibold">TicketMania is a ticket exchange platform that utilises Ticketmaster’s and Google’s API’s. This was a group project for which we used React as our framework and was the first time we had to incorporate both front and back-end testing. My role in the team consisted of pair programming with another team member to build up the back-end, and I was also responsible for the incorporation of Ticketmaster’s API in our application. The project took us one week to complete.
               </p>
+              <br>
+              <p class="subtitle">Tech used:</p>
+              <p class="subtitle">HTML5 | SCSS | JavaScript | React | Node.js | Bcrypt | Express | Mongoose | Morgan | Mongoose | Filepicker | Git | GitHub | Heroku | Trello | Yarn | Chai | Mocha | nyc
+              </p>
+              <a href="https://github.com/antoni1210/WDI-PROJECT-4" target="_blank">
+                <img src="./images/GitHub_Logo.png" alt="GitHub" style="width:92px;height:42px;border:0;">
+              </a>
+              <a href="https://abc-events.herokuapp.com/" target="_blank">
+                <img src="./images/link.png" alt="Link">
+              </a>
             </article>
           </div>
         </div>
@@ -99,19 +99,22 @@
               <br>
               <p class="subtitle has-text-weight-semibold">Our third project was a group project. Again, we built a RESTful website, this time using AngularJS as the chosen framework. The back-end was built using Epress and Mongoose, however this time we had to incorporate testing, which we did using Mocha and Chai. This was our first time using external API’s, like Google’s Maps and Places. All three of us built the back end tgether and paired up with another team member to incorporate the use of Google Places and the Place Atocomplete feature.</p>
               <br>
-              <p>
-                <a href="https://github.com/antoni1210/WDI34_PROJECT_3" target="_blank">
-                  <img src="./images/GitHub_Logo.png" alt="GitHub" style="width:92px;height:42px;border:0;">
-                </a>
-                <a href="https://hidden-gems-api.herokuapp.com/" target="_blank">
-                  <img src="./images/link.png" alt="Link">
-                </a>
+              <p class="subtitle">Tech used:</p>
+              <p class="subtitle">HTML5 | SCSS | JavaScript | AngularJS | Node.js | Bcrypt | Express | Mongoose | Filepicker | Git | GitHub | Heroku | Trello | Yarn | Chai | Mocha | nyc
               </p>
+              <a href="https://github.com/antoni1210/WDI34_PROJECT_3" target="_blank">
+                <img src="./images/GitHub_Logo.png" alt="GitHub" style="width:92px;height:42px;border:0;">
+              </a>
+              <a href="https://hidden-gems-api.herokuapp.com/" target="_blank">
+                <img src="./images/link.png" alt="Link">
+              </a>
             </article>
           </div>
         </div>
       </div>
     </div>
+
+    <br>
 
     <div class="container">
       <div class="columns">
@@ -122,14 +125,15 @@
               <br>
               <p class="subtitle has-text-weight-semibold">My brief was to build a full-stack RESTful application that included authentication, within a 6 day window, using vanilla JavaScript. This was a solo project for which I used Express with a Mongo database using the Mongoose ORM to build up the back end. The app had to contain two models; one representing a user and the other represented the main resource of the app. This was also my first time using a CSS framework, (in this case Bulma) and I was impressed with how intuitive it was.</p>
               <br>
-              <p>
-                <a href="https://github.com/antoni1210/Project-2-WDI" target="_blank">
-                  <img src="./images/GitHub_Logo.png" alt="GitHub" style="width:92px;height:42px;border:0;">
-                </a>
-                <a href="https://project-2-wdi-antoni-alston.herokuapp.com/" target="_blank">
-                  <img src="./images/link.png" alt="Link">
-                </a>
+              <p class="subtitle">Tech used:</p>
+              <p class="subtitle">HTML5 | SCSS | JavaScript | EJS | Node.js | Bcrypt | Express | Mongoose | Bluebird | Git | GitHub | Heroku | body parser | Yarn |
               </p>
+              <a href="https://github.com/antoni1210/Project-2-WDI" target="_blank">
+                <img src="./images/GitHub_Logo.png" alt="GitHub" style="width:92px;height:42px;border:0;">
+              </a>
+              <a href="https://project-2-wdi-antoni-alston.herokuapp.com/" target="_blank">
+                <img src="./images/link.png" alt="Link">
+              </a>
             </article>
           </div>
         </div>
@@ -140,30 +144,35 @@
               <br>
               <p class="subtitle has-text-weight-semibold">This was my first individual project, for which I had 6 days to build a game that could be rendered in a browser. The game had to be built using HTML, CSS and JavaScript/jQuery for DOM manipulation. The aim of the game is to stack animated blocks on top of one another. If the user fails to stack a new block precisely on top of the stack, the overhang is deducted from the blocks width, which the following block also inherits, thus making the game progressively harder.</p>
               <br>
-              <p>
-                <a href="https://github.com/antoni1210/Project-1-WDI" target="_blank">
-                  <img src="./images/GitHub_Logo.png" alt="GitHub" style="width:92px;height:42px;border:0;">
-                </a>
-                <a href="" target="_blank">
-                  <img src="./images/link.png" alt="Link">
-                </a>
+              <p class="subtitle">Tech used:</p>
+              <p class="subtitle">HTML5 | CSS3 | JavaScript | jQuery | Git | GitHub
               </p>
+              <br>
+              <a href="https://github.com/antoni1210/Project-1-WDI" target="_blank">
+                <img src="./images/GitHub_Logo.png" alt="GitHub" style="width: 92px; height: 42px; border:0;">
+              </a>
+              <a href="" target="_blank">
+                <img src="./images/link.png" alt="Link">
+              </a>
             </article>
           </div>
         </div>
       </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <hr />
-
-    <section class="hero is-light">
+    <section class="hero is-medium is-light"><a id="portfolio"></a>
       <div class="hero-body">
         <div class="container has-text-left">
-          <h2 class="title is-size-1"><a id="contact">
+          <h2 class="title is-size-1">
+            <a href="#skills"><img src="./images/expand-button.png"></a>
+          </h2>
+        </div>
+      </div>
+    <hr />
+    <section class="hero is-dark"><a id="skills"></a>
+      <div class="hero-body">
+        <div class="container has-text-left">
+          <h2 class="title is-size-1">
             Skills
-          </a>
         </h2>
       </div>
       <br>
@@ -171,14 +180,14 @@
       <div class="container has-text-centered">
         <div class="columns is-mobile">
           <div class="column">
-            <svg viewBox="0 0 128 128" width="50px" height="50px" style="vertical-align:middle;">
+            <svg viewBox="0 0 128 128" width="50px" height="50px">
               <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185h-125.184z"></path><path fill="#black" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zm-46.885-37.793h-11.709l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"></path>
             </svg>
             <br>
             <p>JavaScript</p>
           </div>
           <div class="column">
-            <svg viewBox="0 0 128 128" width="40px" height="40px">
+            <svg viewBox="0 0 128 128" width="50px" height="50px">
               <path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3-12.5 4.8-19.3 11.4-19.3 18.8s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zm-14.8-30.5c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zm-11.2 59.3c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zm-25.6 27.1c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zm25.6-27.1c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zm-54.5-16.2c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zm-24.7 29c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5-13.8-4-22.1-10-22.1-15.6zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zm60.8-20.3c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z"></path>
             </svg>
             <p>React</p>
@@ -283,10 +292,10 @@
     </div>
   </section>
 
-  <section class="hero is-dark">
+  <section class="hero is-light">
     <div class="hero-body">
       <div class="container has-text-left">
-        <h2 class="title is-size-1">
+        <h2 class="title is-size-1"><a href="#" id="contact"></a>
           Contact
         </h2>
         <br>
@@ -298,19 +307,10 @@
             <a href="https://www.linkedin.com/in/antoni-alston/" target="_blank"><img border="0" alt="LinkedIn" src="./images/linkedin.png" style="vertical-align:middle;"> LinkedIn</a>
           </h3>
           <h3 class="subtitle">
-            <a href="https://github.com/antoni1210" id="contact" target="_blank"><img border="0" alt="LinkedIn" src="./images/github-contact.png" style="vertical-align:middle;"> GitHub</a>
+            <a href="https://github.com/antoni1210" target="_blank"><img border="0" alt="LinkedIn" src="./images/github-contact.png" style="vertical-align:middle;"> GitHub</a>
           </h3>
         </div>
       </div>
     </section>
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <p>
-          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-        </p>
-      </div>
-    </footer>
   </body>
   </html>
